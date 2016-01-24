@@ -15,6 +15,7 @@
 		567EACCC1C543EDF00E5A3D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567EACCA1C543EDF00E5A3D7 /* LaunchScreen.storyboard */; };
 		567EACD71C543EE000E5A3D7 /* alcolator_v1_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 567EACD61C543EE000E5A3D7 /* alcolator_v1_0Tests.m */; };
 		567EACE21C543EE000E5A3D7 /* alcolator_v1_0UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 567EACE11C543EE000E5A3D7 /* alcolator_v1_0UITests.m */; };
+		567EACF41C5449C500E5A3D7 /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567EACF31C5449C500E5A3D7 /* WhiskeyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		567EACDD1C543EE000E5A3D7 /* alcolator v1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "alcolator v1.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		567EACE11C543EE000E5A3D7 /* alcolator_v1_0UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alcolator_v1_0UITests.m; sourceTree = "<group>"; };
 		567EACE31C543EE000E5A3D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		567EACF21C5449C500E5A3D7 /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
+		567EACF31C5449C500E5A3D7 /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				567EACCA1C543EDF00E5A3D7 /* LaunchScreen.storyboard */,
 				567EACCD1C543EDF00E5A3D7 /* Info.plist */,
 				567EACBC1C543EDF00E5A3D7 /* Supporting Files */,
+				567EACF21C5449C500E5A3D7 /* WhiskeyViewController.h */,
+				567EACF31C5449C500E5A3D7 /* WhiskeyViewController.m */,
 			);
 			path = "alcolator v1.0";
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				567EACC41C543EDF00E5A3D7 /* ViewController.m in Sources */,
+				567EACF41C5449C500E5A3D7 /* WhiskeyViewController.m in Sources */,
 				567EACC11C543EDF00E5A3D7 /* AppDelegate.m in Sources */,
 				567EACBE1C543EDF00E5A3D7 /* main.m in Sources */,
 			);
