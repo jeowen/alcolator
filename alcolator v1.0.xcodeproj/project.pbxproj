@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		564597A51C57BCE900D65AFB /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564597A41C57BCE900D65AFB /* WhiskeyViewController.m */; };
 		567EACBE1C543EDF00E5A3D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 567EACBD1C543EDF00E5A3D7 /* main.m */; };
 		567EACC11C543EDF00E5A3D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 567EACC01C543EDF00E5A3D7 /* AppDelegate.m */; };
 		567EACC41C543EDF00E5A3D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567EACC31C543EDF00E5A3D7 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		564597A31C57BCE900D65AFB /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
+		564597A41C57BCE900D65AFB /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
 		567EACB91C543EDF00E5A3D7 /* alcolator v1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alcolator v1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		567EACBD1C543EDF00E5A3D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		567EACBF1C543EDF00E5A3D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				567EACCA1C543EDF00E5A3D7 /* LaunchScreen.storyboard */,
 				567EACCD1C543EDF00E5A3D7 /* Info.plist */,
 				567EACBC1C543EDF00E5A3D7 /* Supporting Files */,
+				564597A31C57BCE900D65AFB /* WhiskeyViewController.h */,
+				564597A41C57BCE900D65AFB /* WhiskeyViewController.m */,
 			);
 			path = "alcolator v1.0";
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				567EACC41C543EDF00E5A3D7 /* ViewController.m in Sources */,
+				564597A51C57BCE900D65AFB /* WhiskeyViewController.m in Sources */,
 				567EACC11C543EDF00E5A3D7 /* AppDelegate.m in Sources */,
 				567EACBE1C543EDF00E5A3D7 /* main.m in Sources */,
 			);
@@ -498,6 +504,7 @@
 				567EACE81C543EE000E5A3D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		567EACE91C543EE000E5A3D7 /* Build configuration list for PBXNativeTarget "alcolator v1.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				567EACEB1C543EE000E5A3D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		567EACEC1C543EE000E5A3D7 /* Build configuration list for PBXNativeTarget "alcolator v1.0UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				567EACEE1C543EE000E5A3D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
