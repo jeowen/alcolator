@@ -13,5 +13,7 @@
 @property (weak, nonatomic) IBOutlet UISlider *beerCountSlider;
 @property (weak, nonatomic) IBOutlet UILabel *resultLabel;
 
+@property (strong, nonatomic) NSMutableString *drinkText;
+
 @end
 

@@ -97,18 +97,6 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OoC-BJ-hJt">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                             </navigationBar>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rra-EC-2R0">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
-                                <items>
-                                    <navigationItem title="Title" id="fhL-dy-bhn"/>
-                                </items>
-                            </navigationBar>
-                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GPl-0h-JhY">
-                                <rect key="frame" x="0.0" y="58" width="600" height="44"/>
-                                <items>
-                                    <navigationItem title="Wine" id="Vqf-fk-kjq"/>
-                                </items>
-                            </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="???" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zbm-Wz-uK1">
                                 <rect key="frame" x="35" y="340" width="538" height="198"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="31"/>
@@ -130,9 +118,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Zbm-Wz-uK1" secondAttribute="trailing" constant="15" id="Nmg-rg-do5"/>
                             <constraint firstItem="WKq-be-hT2" firstAttribute="top" secondItem="oWt-Ii-f3c" secondAttribute="bottom" constant="36" id="WCX-yg-bYT"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Zbm-Wz-uK1" secondAttribute="trailing" constant="12" id="YaG-cd-dse"/>
-                            <constraint firstItem="GPl-0h-JhY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Yae-jk-TcF"/>
                             <constraint firstItem="Zbm-Wz-uK1" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Zj2-nR-upY"/>
-                            <constraint firstItem="GPl-0h-JhY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ak4-7q-w0O"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fuL-6x-VOJ" secondAttribute="trailing" constant="10" id="cUh-6G-1ds"/>
                             <constraint firstItem="WKq-be-hT2" firstAttribute="centerX" secondItem="oWt-Ii-f3c" secondAttribute="centerX" id="eR7-Tn-oFh"/>
                             <constraint firstItem="fuL-6x-VOJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="60" id="t4c-um-8sr"/>
