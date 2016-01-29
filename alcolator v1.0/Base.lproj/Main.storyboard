@@ -88,7 +88,7 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V7o-tH-pfZ"/>
                                 </connections>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="oWt-Ii-f3c">
+                            <slider opaque="NO" tag="1234" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="oWt-Ii-f3c">
                                 <rect key="frame" x="76" y="205" width="494" height="31"/>
                                 <connections>
                                     <action selector="sliderValueDidChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="3T1-Jv-nZv"/>
@@ -174,10 +174,10 @@
                                     <action selector="buttonPressed:" destination="w01-cO-v6L" eventType="touchUpInside" id="Sgb-RK-GJX"/>
                                 </connections>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="yYe-Hf-Kvm">
+                            <slider opaque="NO" tag="4321" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="yYe-Hf-Kvm">
                                 <rect key="frame" x="65" y="209" width="503" height="31"/>
                                 <connections>
-                                    <action selector="sliderValueDidChange:" destination="w01-cO-v6L" eventType="valueChanged" id="sG6-LM-0ft"/>
+                                    <action selector="sliderDidChange:" destination="w01-cO-v6L" eventType="valueChanged" id="gTc-wn-TrI"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="???" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Hk-KE-bJ9">
