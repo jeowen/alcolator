@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		56251BDB1C57BE6E0099D77F /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56251BDA1C57BE6E0099D77F /* WhiskeyViewController.m */; };
-		56251BDE1C59CE060099D77F /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56251BDD1C59CE060099D77F /* MainMenuViewController.m */; };
 		567EACBE1C543EDF00E5A3D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 567EACBD1C543EDF00E5A3D7 /* main.m */; };
 		567EACC11C543EDF00E5A3D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 567EACC01C543EDF00E5A3D7 /* AppDelegate.m */; };
 		567EACC41C543EDF00E5A3D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567EACC31C543EDF00E5A3D7 /* ViewController.m */; };
@@ -39,8 +38,6 @@
 /* Begin PBXFileReference section */
 		56251BD91C57BE6E0099D77F /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
 		56251BDA1C57BE6E0099D77F /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
-		56251BDC1C59CE060099D77F /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
-		56251BDD1C59CE060099D77F /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 		567EACB91C543EDF00E5A3D7 /* alcolator v1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alcolator v1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		567EACBD1C543EDF00E5A3D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		567EACBF1C543EDF00E5A3D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,8 +115,6 @@
 				567EACBC1C543EDF00E5A3D7 /* Supporting Files */,
 				56251BD91C57BE6E0099D77F /* WhiskeyViewController.h */,
 				56251BDA1C57BE6E0099D77F /* WhiskeyViewController.m */,
-				56251BDC1C59CE060099D77F /* MainMenuViewController.h */,
-				56251BDD1C59CE060099D77F /* MainMenuViewController.m */,
 			);
 			path = "alcolator v1.0";
 			sourceTree = "<group>";
@@ -284,7 +279,6 @@
 				56251BDB1C57BE6E0099D77F /* WhiskeyViewController.m in Sources */,
 				567EACC11C543EDF00E5A3D7 /* AppDelegate.m in Sources */,
 				567EACBE1C543EDF00E5A3D7 /* main.m in Sources */,
-				56251BDE1C59CE060099D77F /* MainMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

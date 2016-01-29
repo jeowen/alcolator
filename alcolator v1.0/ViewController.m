@@ -36,7 +36,8 @@
     
     int numberOfBeers = self.beerCountSlider.value;
     self.navigationItem.title = [NSString stringWithFormat:@"Wine (%d Shots)",numberOfBeers];
-
+    [self.tabBarItem setBadgeValue:[NSString stringWithFormat:@"%d", (int) sender.value]];
+    
 //    NSLog(@"Slider value changed to %f", sender.value);
 //    [self.beerPercentTextField resignFirstResponder];
 //    // [self.drinkText setString:@"Wine"];
